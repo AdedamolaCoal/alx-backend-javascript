@@ -1,11 +1,15 @@
 export function taskFirst() {
-  const name = 'My name is Coal';
-  return name;
+  const task = 'I prefer const when I can.';
+  return task;
+}
+
+export function getLast() {
+  return ' is okay';
 }
 
 export function taskNext() {
-  const message = 'My favorite number is ';
-  let number = 10;
-  number = 15;
-  return message + number;
+  let combination = 'But sometimes let';
+  combination += getLast();
+
+  return combination;
 }
