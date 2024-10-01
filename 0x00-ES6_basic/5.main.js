@@ -1,3 +1,3 @@
 import concatArrays from "./5-spread-operator";
 
-console.log(concatArrays(['a', 'b', 'c'], ['d', 'f', 'g'], 'hello'));
+console.log(concatArrays(['a', 'b'], ['c', 'd'], 'hello'));
