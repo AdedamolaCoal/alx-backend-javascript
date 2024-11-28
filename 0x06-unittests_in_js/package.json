@@ -1,7 +1,6 @@
 {
   "name": "0x06-unittests_in_js",
   "version": "1.0.0",
-  "type": "module",
   "description": "this is the readme file for the unit test projects",
   "main": "0-calcul.js",
   "scripts": {
