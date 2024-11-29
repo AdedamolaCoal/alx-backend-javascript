@@ -1,4 +1,3 @@
-// utils.js
 class Utils {
   static calculateNumber(type, a, b) {
     const roundedA = Math.round(a);
@@ -19,4 +18,4 @@ class Utils {
   }
 }
 
-export default Utils;
+module.exports = Utils;
